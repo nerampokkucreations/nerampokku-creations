@@ -22,6 +22,7 @@ import { Analytics } from "@vercel/analytics/react";
    GOOGLE APPS SCRIPT
 ========================================================= */
 
+const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbz0c3-741kDNV46VajbM7YKon7cywAlrAZhpDL-g_EWeFbUkHQDNQbgA6ZNie6CeC3IiA/exec";
 
 /* =========================================================
    MUSIC + WRITING IMAGE COLLECTION
