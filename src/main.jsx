@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 import "./styles.css";
+import { Analytics } from "@vercel/analytics/react";
 
 /* =========================================================
    GOOGLE APPS SCRIPT
@@ -2062,6 +2063,9 @@ function App() {
 createRoot(
   document.getElementById("root")
 ).render(
-  <App />
+  <>
+    <App />
+    <Analytics />
+  </>
 );
 
