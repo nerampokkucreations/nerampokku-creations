@@ -200,15 +200,25 @@ function Navbar() {
 function Music() {
 
   const songs = [
+    // {
+    //   number: "01",
+    //   title: "കിങ്ങിണിപ്പൂച്ച",
+    //   description:
+    //     "A new Malayalam musical creation from Nerampokku Creations.",
+    //   image:
+    //     "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=1200&q=90",
+    //   youtube: null,
+    //   status: "COMING SOON",
+    // },
     {
       number: "01",
       title: "കിങ്ങിണിപ്പൂച്ച",
       description:
         "A new Malayalam musical creation from Nerampokku Creations.",
-      image:
-        "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=1200&q=90",
-      youtube: null,
-      status: "COMING SOON",
+      image: "https://i.ytimg.com/vi/KQd5EkNJRvI/hqdefault.jpg",
+      youtube:
+        "https://youtu.be/KQd5EkNJRvI",
+      status: "WATCH ON YOUTUBE",
     },
 
     {
@@ -397,16 +407,28 @@ function Music() {
    LATEST CREATION
 ========================================================= */
 
+// const latestCreation = {
+//   type: "MUSIC",
+//   label: "COMING SOON • NEW SONG",
+//   title: "കിങ്ങിണിപ്പൂച്ച",
+//   subtitle: "UPCOMING MALAYALAM SONG",
+//   message:
+//     "A new melody is on its way. കിങ്ങിണിപ്പൂച്ച is coming soon from Nerampokku Creations — a new song shaped by words, music and emotion.",
+//   artwork: "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=1200&q=90",
+//   buttonText: "COMING SOON",
+//   link: null,
+// };
+
 const latestCreation = {
   type: "MUSIC",
-  label: "COMING SOON • NEW SONG",
+  label: "NEW RELEASE • NOW PLAYING",
   title: "കിങ്ങിണിപ്പൂച്ച",
-  subtitle: "UPCOMING MALAYALAM SONG",
+  subtitle: "ORIGINAL MALAYALAM SONG",
   message:
-    "A new melody is on its way. കിങ്ങിണിപ്പൂച്ച is coming soon from Nerampokku Creations — a new song shaped by words, music and emotion.",
-  artwork: "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=1200&q=90",
-  buttonText: "COMING SOON",
-  link: null,
+    "കിങ്ങിണിപ്പൂച്ച is now released from Nerampokku Creations — a new melody shaped by words, music and emotion.",
+  artwork: "https://i.ytimg.com/vi/KQd5EkNJRvI/0.jpg",
+  buttonText: "LISTEN ON YOUTUBE",
+  link: "https://youtu.be/KQd5EkNJRvI",
 };
 
 /* =========================================================
